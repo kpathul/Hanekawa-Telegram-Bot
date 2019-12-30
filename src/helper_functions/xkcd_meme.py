@@ -1,6 +1,4 @@
 import requests
-import json
-
 
 #generate valid random number for comic id 
 comicId = 200
