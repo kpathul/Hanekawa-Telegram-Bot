@@ -3,12 +3,15 @@ from src import dispatcher
 from telegram import Update
 from telegram.ext import CommandHandler, CallbackContext as Context
 
-NEW_FEATURES = "I now welcome new users joinining the group!"
+NEW_FEATURES = (
+                "I'm now hosted on a remote server! This means I'll be active all the time!\n"
+                "I now promote, demote, mute and kick members and pin messages.\n"
+                "Also try /xkcd for new year surprise!\n\n "
+                "Note: To be more inclusive, unfortunately my anime theme is getting slowly removed and will be "
+                "completely down by next update (ノ﹏ヽ)")
 NEXT_FEATURES = (
-    "My creator is always giving me new powers nyaa!\nNext my creator intends to implement invite, mute, "
-    "promote, demote, kick, ban commands which can be used in groups.\nAlso, he's frantically trying to "
-    "get hold of a remote server to host me so Meow can serve everyone 24\\7, no breaks!\nLook forward to "
-    "it! (=^･ω･^=)")
+    "My creator is always giving me new powers nyaa!\nI'll be getting a database soon.\n"
+    "Look forward to it! (=^･ω･^=)")
 
 
 def whats_new(update: Update, context: Context):

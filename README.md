@@ -9,7 +9,7 @@ This project was written in `python3.7`. Setting up a virtual environment with t
 Install required python dependencies by running:
 
 ```
-pip install -r requirements.txt\
+pip install -r requirements.txt
 ```
 
 Set up the `config.py` in the `src` folder by adding the `API_TOKEN` of your bot.

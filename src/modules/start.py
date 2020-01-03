@@ -6,7 +6,8 @@ from telegram.ext import CommandHandler, CallbackContext as Context
 START_MESSAGE = (
     "Kyonichwa nyaaan!  V(=^･ω･^=)v\n\nI'm Neko Hanekawa. I'm the cat girl who'll take good care of your groups "
     "in exchange for headpats. (=^-ω-^=)\n\nTo see what all I can do as of now use /help.\nI'm still growing. "
-    "Help me grow faster by joining the support group [here](https://t.me/NekoHanekawaGroup)\n\nMy owner is "
+    "Help me grow faster by joining the support group [here](https://t.me/NekoHanekawaGroup) or "
+    "contribute to me on [GithHub](https://github.com/kpathul/Hanekawa-Telegram-Bot/)\n\nMy owner is "
     "@DiscipleOfDisaster\n\nSore ja\nヽ(=^･ω･^=)丿")
 
 
