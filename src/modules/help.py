@@ -12,7 +12,10 @@ COMMAND_LIST = {
     'demote': 'Demotes a group admin. Can only be used by owner\nUsage: Send this command as a reply to any message by the person to be demoted',
     'mute': 'Mutes a group member\nUsage: Send this command as a reply to any message by the person to be muted',
     'unmute': 'Unmutes a group member\nUsage: Send this command as a reply to any message by the person to be unmuted',
-    'kick': 'Kicks a group member\nUsage: Send this command as a reply to any message by the person to be kicked',
+    'kick': 'Kicks a group member\nUsage: Send this command as a reply to any message by the person to be kicked\nCan also be accessed using /ban',
+    'unban': 'Unbans a kicked member\nUsage: Send this command as a reply to any message by the person to be unbanned',
+    'pin': 'Pins a message\nUsage: Send this command as a reply to the message to be pinned',
+    'unpin': 'Unpins the pinned message',
     'xkcd': 'Retrieves and sends a random xkcd comic',
     'whatsnew': 'Lets you know about the latest feature added to me',
     'whatsnext': 'Lets you know what features my creator is working on adding next'
@@ -20,9 +23,9 @@ COMMAND_LIST = {
 
 HELP_MESSAGE = (
     "Nyeko is here to help nyaa!\n\nTo see all commands I respond to, use /list\nTo get the usage of a "
-    "particular command use /help <command>\nTo support my creator use /support (Available soon!)\n\nIf you "
+    "particular command use /help <command>\n\nIf you "
     "have any other queries or want to request new features, head over to the [support group]("
-    "https://t.me/NekoHanekawaGroup)")
+    "https://t.me/NekoHanekawaGroup)\n")
 
 
 def help(update: Update, context: Context):
